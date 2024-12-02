@@ -1,1 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=S, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    div{
+        border: 5px solid black;
+        border-top-color: rgb(25, 47, 170);
+    }
+    #divtitulo{
+        background-color: #FF0000;
+    }
+    span{background-color: yellow;}
+    table,td,th{
+        border: 3px solid rgb(241, 5, 0);
+        border-collapse: collapse;
 
+    }
+    S
+    table img{
+        width: 60px;
+    }
+
+    </style>
+
+
+
+</head>
+<body>
+    <!--comentario no HTML-->
+    <!--tag dig com css  inlin-->
+    <div id ="divtitulo">
+        <h1>Titulo</h1> 
+        <h2>Titulo</h2>
+        <h3>Titulo</h3>
+        <h4>Titulo</h4>
+        <h5>Titulo</h5>
+        <h6>Titulo</h6>
+    </div>
+
+    <div>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. <span> Enim cupiditate excepturi eligendi ullam provident sed facilis </span> repudiandae modi voluptate <b> maxime, eius veniam facere! </b>  Praesentium illum architecto labore rerum quod?
+        </p>
+
+    </div>
+
+    <h2>lista</h2>
+    <h3>lista não ordenoda</h3>
+    <ul>
+        <li><span>willian</span></li>
+        <li><span>Lezio</span></li>
+        <li>lucas</li>
+        <li>dosnoni</li>
+        <li>done</li>
+        <li>dada</li>
+    </ul>
+    <h3>lista ordenada</h3>
+    <ol type ="I" start="10">
+        <li>mine</li>
+        <li>de of</li>
+        <li>CSGO</li>
+        <li>valorant</li>
+    </ol>
+
+    <dl>
+        <dt>mine</dt>
+        <dd>O jogo mais jogado da historia</dd>
+
+        <dt>CSGO</dt>
+        <dd>Um dos melhores jogas da historia</dd>
+    </dl>
+
+
+    <div>
+        ,<table>
+            <tr>
+                <th>Categaria</th>
+                <th>indice</th>
+                <th>filme</th>
+                <th>ano</th>
+                <th>poster</th>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>CSGO</td>
+                <td>2011</td>
+                <td>
+                    <img src="https://s2-techtudo.glbimg.com/9hLtG2DbMA9l11iMODEnBHv94iU=/0x0:1200x603/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2019/i/b/ETfVe9TSWL7BL6NLQZYQ/1535723475188-fb-image.png" alt="">
+                </td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>valorant</td>
+                <td>2020</td>
+                <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYAfS08d2d_JArAnjk6tT-GiLHz1dTMHYE4dl7rFod3rpn1RXw06NcdqKMIUXwx59gVp0&usqp=CAU" alt=""></td>
+            </tr>
+
+            <tr>
+                <td rowspan = "2"> ficçao </td>
+                <td>3</td>
+                <td><a href="https://www.imdb.com/list/ls539092014/"a> o resgate do soldado Ryan </td>
+                <td>1998</td>
+                <td>
+                    <img src="https://upload.wikimedia.org/wikipedia/pt/a/ac/Saving_Private_Ryan_poster.jpg" alt="">
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div>
+        <h2>Formulario</h2>
+        <form action ="https://www.google.com.br/search">
+            <label for=""></label>
+            <input type="text" name="q">
+            <input type="submit" value="enviar">
+        </form>
+    </div>
+
+
+    <img src="neymar.jpg" alt="neymar"width ="350px">
+    <img src="FOTO Felipe Gabriel Lezio.jpg" alt="lezio"width ="200px">
+    <img src="FOTO WILLIAN DAGNONI DONEGA.jpg" alt="willian"width ="200px">
+    <img src="LUCAS IRINEU VALLE - foto.jpg" alt="LUCAS" width ="200px">
+
+</body>
+</html>
